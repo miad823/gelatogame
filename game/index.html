@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+    <title>Mia's Gelato Game</title>
+    <meta name="description" content="HTML5 Game Example">
+    <meta name="author" content="David Kelleher">
+    <link rel="stylesheet" type="text/css" href="style/global.css">
+	<script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>
+    <script src="https://code.createjs.com/1.0.0/tweenjs.min.js"></script>
+    <script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
+    
+    <style>
+        
+        img {
+            width: 40%;
+            text-align: center;
+        }
+        
+        p {
+            font-family: sans-serif;
+            font-size: 2em;
+            color: #64cd90;
+            font-family: 'Nunito Sans', sans-serif; 
+            font-weight: lighter;
+            text-align: center;
+        }
+        
+        #page {
+            width: 100%;
+            text-align: center;    
+            background-image: url(image/border.png);
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            padding-bottom: 1%;
+            }
+        
+
+        
+        #footer {
+            display:flex;
+            justify-content: space-between;
+            margin-left: 40%;
+            margin-right: 40%;
+            margin-bottom: 6%;
+        }
+        
+        }
+        
+    </style>
+    
+    
+</head>
+<body>
+<div id="page">
+            <h1>
+        <img src="image/logo.png">
+            </h1>
+    
+        <div id="game">  
+	       <script src="script/game.js"></script>
+        </div> 
+    
+                <p>Catch the Gelato scoops but be sure to avoid the vegetables!
+               </p>
+                
+                <p>
+                    Refresh the page to play again.
+                </p>
+            <footer>
+       
+                 <div id="footer">
+           <a href="https://www.instagram.com/miasgelateria/">
+             <img alt="Instagram Logo" id="instagram" src="image/instagram.png">
+               </a>
+           
+             <a href="https://www.facebook.com/Miasgelateria/">
+            <img alt="Facebook Logo" id="facebook" src="image/facebook.png">
+                </a>
+                     
+            </div>
+        
+            </footer>
+</div>
+    
+
+</body>
+</html>
