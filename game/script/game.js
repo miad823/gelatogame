@@ -282,6 +282,8 @@ queue.on("complete", function () {
                         egg.regX += egg.width/4;
                         egg.regY += egg.height/4;
                         stage.dispatchEvent(new createjs.Event("hitbyball"));
+                        alert("Game Over! Press OK to play again.");
+                        location.reload();
                     }
                 }
             }
